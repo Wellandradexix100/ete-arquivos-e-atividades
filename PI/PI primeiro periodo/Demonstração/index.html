@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plataforma de Comunicação</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+      <h1 class="text-3xl font-bold text-center mb-6">
+        Plataforma de Comunicação
+      </h1>
+
+      <div id="messageDisplay" class="bg-white p-4 rounded shadow mb-4">
+        <p id="message" class="text-xl text-center"></p>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        <img
+          src="https://e7.pngegg.com/pngimages/385/595/png-clipart-food-eating-lunch-child-child-child-food.png"
+          alt="Comer"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+        <img
+          src="https://e7.pngegg.com/pngimages/282/963/png-clipart-thirsty-drink-water-drink-water-hand-draw-water.png"
+          alt="Beber"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+        <img
+          src="https://via.placeholder.com/150?text=Brincar"
+          alt="Brincar"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+        <img
+          src="https://via.placeholder.com/150?text=Feliz"
+          alt="Feliz"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+        <img
+          src="https://via.placeholder.com/150?text=Triste"
+          alt="Triste"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+        <img
+          src="https://via.placeholder.com/150?text=Dormir"
+          alt="Dormir"
+          class="pictogram cursor-pointer h-40 w-40"
+        />
+      </div>
+
+      <button
+        id="clearBtn"
+        class="mt-6 bg-red-500 text-white py-2 px-4 rounded"
+      >
+        Limpar
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
